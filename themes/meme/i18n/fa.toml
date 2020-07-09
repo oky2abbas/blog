@@ -1,0 +1,174 @@
+[ellipsis]
+other = "…"
+
+[colon]
+other = ": "
+
+[minute]
+one = "min"
+other = "mins"
+
+[tocTitle]
+other = "محتوی"
+
+[readMore]
+other = "بیشتر"
+
+[prevPage]
+other = "جدید ترین"
+
+[nextPage]
+other = "قبلی"
+
+[copy]
+other = "کپی"
+
+[copied]
+other = "کپی شد"
+
+[copyrightAuthor]
+other = "نویسنده"
+
+[copyrightLink]
+other = "لینک"
+
+[copyrightLicense]
+other = "گواهینامه"
+
+[shareOn]
+other = "اشتراک گزاری روی:"
+
+[shareOnTitle]
+other = "اشتراک گزاری روی "
+
+[shareViaTitle]
+other = "اشتراک با "
+
+[relatedPosts]
+other = "پست های مرتبط:"
+
+[loadComments]
+other = "لود شدن کامنت ها ؟"
+
+[pageNotFound]
+other = "404 - صفحه درخواستی پیدا نشد"
+
+[fofLinkText]
+other = "من رو به خانه ببر"
+
+[serviceWorkerUpdatedText]
+other = "بروزرسانی در دسترس نیست"
+
+[serviceWorkerUpdatedAction]
+other = "بروزرسانی"
+
+[searchResultsTitle]
+one = "یک نتیجه برای “{{ .Term }}”"
+other = "تعداد {{ .Count }} نتیجه برای “{{ .Term }}”"
+
+[searchResultsNone]
+other = " نتیجه ای برای “{{ .Term }} پیدا نشد”"
+
+
+# Socials
+
+[twitter]
+other = "توئیتر"
+
+[facebook]
+other = "فیسبوک"
+
+[linkedin]
+other = "لینکداین"
+
+[telegram]
+other = "تلگرام"
+
+[weibo]
+other = "Weibo"
+
+[douban]
+other = "Douban"
+
+[qq]
+other = "QQ"
+
+[qzone]
+other = "Qzone"
+
+[qrcode]
+other = "QR کد"
+
+
+# Months
+# Used for `i18nMonth`
+
+[january]
+other = "ژانویه"
+
+[february]
+other = "فبریه"
+
+[march]
+other = "مارس"
+
+[april]
+other = "آپریل"
+
+[may]
+other = "می"
+
+[june]
+other = "ژوئن"
+
+[july]
+other = "جولای"
+
+[august]
+other = "آگوست"
+
+[september]
+other = "سپتامبر"
+
+[october]
+other = "اکتبر"
+
+[november]
+other = "نوامبر"
+
+[december]
+other = "دسامبر"
+
+
+# Numbers
+# Used for `i18nYear`
+
+[0]
+other = "0"
+
+[1]
+other = "1"
+
+[2]
+other = "2"
+
+[3]
+other = "3"
+
+[4]
+other = "4"
+
+[5]
+other = "5"
+
+[6]
+other = "6"
+
+[7]
+other = "7"
+
+[8]
+other = "8"
+
+[9]
+other = "9"

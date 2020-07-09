@@ -1,0 +1,44 @@
+{{/* {{ if and (.Params.comments | default .Site.Params.enableComments) (eq
+hugo.Environment "production") }} {{ if or (in .Site.Params.mainSections
+.Section) .Params.comments }}
+
+<div class="load-comments">
+  <div id="load-comments">{{ i18n "loadComments" }}</div>
+</div>
+
+{{ if .Site.Params.enableDisqus }}
+<div id="disqus_thread"></div>
+{{ end }} {{ if .Site.Params.enableValine }}
+<div id="vcomments"></div>
+{{ end }} {{ if .Site.Params.enableUtterances }}
+<div id="utterances"></div>
+{{ end }} {{ end }} {{ end }} */}}
+
+<html>
+  <div
+    style="
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+        sans-serif;
+    "
+    id="graphcomment"
+  ></div>
+  <script type="text/javascript">
+    window.gc_params = {
+      graphcomment_id: "oky2abbas",
+      fixed_header_height: 0,
+    };
+
+    (function () {
+      var gc = document.createElement("script");
+      gc.type = "text/javascript";
+      gc.async = true;
+      gc.src =
+        "https://graphcomment.com/js/integration.js?" +
+        Math.round(Math.random() * 1e8);
+      (
+        document.getElementsByTagName("head")[0] ||
+        document.getElementsByTagName("body")[0]
+      ).appendChild(gc);
+    })();
+  </script>
+</html>
