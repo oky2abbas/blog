@@ -1,6 +1,7 @@
 // https://codyhouse.co/ds/globals/colors
 
 @mixin light-theme {
+
     --theme-name: "light";
     @include defineColorHSL(--color-primary, $primaryColorLightH, $primaryColorLightS, $primaryColorLightL);
     @include defineColorHSL(--color-bg, 0, 0%, 100%);

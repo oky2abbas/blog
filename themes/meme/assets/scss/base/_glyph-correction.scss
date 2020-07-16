@@ -1,10 +1,10 @@
 @font-face {
-    font-family: 'vazir';
+    font-family: 'cvazir';
     font-display: swap;
-    src: url('/fonts/vazir.woff2') format('woff2'),
-        url('/fonts/vazir.woff') format('woff'),
-        url('/fonts/vazir.ttf') format('truetype'),
-        url('/fonts/vazir.eot') format('embedded-opentype');
+    src: url('../../../static/fonts/cvazir.woff2') format('woff2'),
+        url('../../../static/fonts/cvazir.woff') format('woff'),
+        url('../../../static/fonts/cvazir.ttf') format('truetype'),
+        url('../../../static/fonts/cvazir.eot') format('embedded-opentype');
     unicode-range: U+00B7, U+2014, U+2022, U+2026;
     font-weight: inherit;
     font-style: inherit;

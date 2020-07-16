@@ -1,4 +1,12 @@
-{{ with .Site.Params.fontSize | default 16 }}
+
+@font-face {
+    font-family: 'cvazir';
+    src: url(../../../static/fonts/cvazir.eot);
+    src: url(../../../static/fonts/cvazir.woff2);
+    src: url(../../../static/fonts/cvazir.ttf);
+}
+
+{{ with .Site.Params.fontSize | default 15 }}
     $fontSize: {{ . }}px;
 {{ end }}
 {{ with .Site.Params.tabSize | default 4 }}

@@ -25,6 +25,7 @@ span.lnt {
 }
 
 .chroma {
+    direction: ltr;
     color: var(--color-contrast-high);
     background-color: alpha(var(--color-contrast-lower), 0.5);
 }

@@ -5,8 +5,8 @@ other = "…"
 other = ": "
 
 [minute]
-one = "min"
-other = "mins"
+one = "یک دقیقه"
+other = "دقیقه"
 
 [tocTitle]
 other = "محتوی"

@@ -2,7 +2,7 @@
 # Site Settings
 
 baseURL = "/"
-title = "وبلاگ عباس نقدی"
+title = "عباس نقدی"
 languageCode = "fa"
 hasCJKLanguage = false
 
@@ -20,7 +20,7 @@ defaultContentLanguageInSubdir = false
 pluralizeListTitles = false
 
 # The length of text in words to show in summary
-summaryLength = 42
+summaryLength = 0
 
 # Enable Emoji emoticons support?
 enableEmoji = true
@@ -37,7 +37,7 @@ enableRobotsTXT = true
 # Number of items per page in paginated
 # lists (valid for the `posts` homepage
 # layout in MemE)
-paginate = 10
+paginate = 30
 
 # URL related
 disablePathToLower = false
@@ -198,15 +198,27 @@ uglyURLs = false
     [[menu.main]]
         url = "/projects"
         name = "پروژه های من"
-        weight = 3
+        weight = 2
         pre = "internal"
         post = "archive"
     [[menu.main]]
         url = "/resume"
         name = "رزومه من"
-        weight = 4
+        weight = 3
         pre = "internal"
         post = "info"
+    [[menu.main]]
+        url = "https://zil.ink/oky2abbas"
+        name = "تماس با من"
+        weight = 4
+        pre = "external"
+        post = "eye"
+    [[menu.main]]
+        url = "https://idpay.ir/oky2abbas"
+        name = "هدیه مالی"
+        weight = 5
+        pre = "external"
+        post = "heart"
     [[menu.main]]
         weight = 6
         identifier = "theme-switcher"
@@ -278,7 +290,7 @@ uglyURLs = false
     # Note: invalid for header layout flex
 
     # Highlight current menu item by section?
-    activeInSection = false
+    activeInSection = true
     # Note: if true, the menu item in the
     #       post page will be highlighted
     #       also if that post’s section is
@@ -413,14 +425,14 @@ uglyURLs = false
     #       fallback to the default value: 42
     #       Unit: em
 
-    displayListTitle = true
+    displayListTitle = false
 
     listDateFormat = "January 2"
     # ATTENTION: be sure to follow the
     #            specified format
     #            https://gohugo.io/functions/format/
 
-    listDatePosition = "right"
+    listDatePosition = "left"
     # Note: left or right
 
     # Separate the list by month?
@@ -710,7 +722,7 @@ uglyURLs = false
     #            supported
 
     # The content width of the post
-    postWidth = 36
+    postWidth = 42
     # Note: you can leave it empty("") to
     #       fallback to the default value: 42
     #       Unit: em
@@ -915,25 +927,25 @@ uglyURLs = false
     #       brand.
 
     # Site brand
-    fontFamilySiteBrand = "vazir"
+    fontFamilySiteBrand = "cvazir"
     # Menu bar
-    fontFamilyMenu = "vazir"
+    fontFamilyMenu = "cvazir"
     # Post title, post subtitle, list title, year and month title of the list, related posts title, previous/next post title, header of table, term/name in a definition list
-    fontFamilyTitle = "vazir"
+    fontFamilyTitle = "cvazir"
     # Headings, toc title
-    fontFamilyHeadings = "vazir"
+    fontFamilyHeadings = "cvazir"
     # Code, superscript, post meta info, post updated badge, post gitinfo, minimal footer, busuanzi site view counter
-    fontFamilyCode = "'Source Code Pro', monospace"
+    fontFamilyCode = "'consolas','Source Code Pro', monospace"
     # Blockquotes
-    fontFamilyQuote = "vazir"
+    fontFamilyQuote = "cvazir"
     # Table of contents
-    fontFamilyTOC = "vazir"
+    fontFamilyTOC = "cvazir"
     # Caption
-    fontFamilyCaption = "vazir"
+    fontFamilyCaption = "cvazir"
     # Footer
-    fontFamilyFooter = "vazir"
+    fontFamilyFooter = "cvazir"
     # Body
-    fontFamilyBody = "vazir"
+    fontFamilyBody = "cvazir"
 
     # Embed fonts link
     fontsLink = "https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Comfortaa:wght@700&display=swap"
