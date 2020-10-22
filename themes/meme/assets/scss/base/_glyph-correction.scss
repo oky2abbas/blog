@@ -1,11 +1,6 @@
 @font-face {
     font-family: 'cvazir';
-    font-display: swap;
-    src: url('../../../static/fonts/cvazir.woff2') format('woff2'),
-        url('../../../static/fonts/cvazir.woff') format('woff'),
-        url('../../../static/fonts/cvazir.ttf') format('truetype'),
-        url('../../../static/fonts/cvazir.eot') format('embedded-opentype');
-    unicode-range: U+00B7, U+2014, U+2022, U+2026;
-    font-weight: inherit;
-    font-style: inherit;
+    src: url(/fonts/cvazir.woff2);
+    src: url(/fonts/cvazir.woff);
+    src: url(/fonts/cvazir.ttf);
 }
