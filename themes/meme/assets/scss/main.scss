@@ -1,11 +1,3 @@
-@font-face {
-    font-family: 'cvazir';
-    src: url(/fonts/cvazir.woff2);
-    src: url(/fonts/cvazir.woff);
-    src: url(/fonts/cvazir.ttf);
-}
-
-
 {{ with .Site.Params.fontSize | default 15 }}
     $fontSize: {{ . }}px;
 {{ end }}

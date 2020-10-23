@@ -8,9 +8,10 @@
         width: 100%;
     }
     .header-wrapper {
-        padding: 1em 0;
+        padding: 2em 0;
         @include blur;
         background: $headerBackground;
+        display: flex;
     }
     .header-inner {
         display: flex;
@@ -65,8 +66,8 @@ $brandHeight: null;
                 #{$fontSize * /* .nav font size */ 0.8 * /* .menu line height */ 1.5},
                 /* brand */
                 #{$brandHeight}
-            ) + #{/* .header-wrapper top+bottom margin */ 2 * $fontSize}
-        );
+                ) + #{/* .header-wrapper top+bottom margin */ 2 * $fontSize}
+            );
     }
 
     /* Work-around for anchors being hidden below the header */

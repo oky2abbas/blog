@@ -4,3 +4,20 @@
     src: url(/fonts/cvazir.woff);
     src: url(/fonts/cvazir.ttf);
 }
+
+
+body {
+    direction: rtl;
+}
+
+.chroma {
+    direction: ltr;
+}
+
+.header-wrapper {
+    font-size: 1.3em;
+}
+
+.post-title {
+    font-size: 1.3em;
+}
