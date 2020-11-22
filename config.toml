@@ -20,7 +20,7 @@ defaultContentLanguageInSubdir = false
 pluralizeListTitles = false
 
 # The length of text in words to show in summary
-summaryLength = 0
+summaryLength = 50
 
 # Enable Emoji emoticons support?
 enableEmoji = true
@@ -102,7 +102,7 @@ uglyURLs = false
     # Personal website, default: baseURL
     website = "/"
     # Twitter
-    twitter = "oky2abbas"
+    twitter = "amirabbas_naqdi"
 
 # Related content
 [related]
@@ -197,7 +197,7 @@ uglyURLs = false
         post = "home"
     [[menu.main]]
         url = "/projects"
-        name = "پروژه های من"
+        name = "نمونه کار ها"
         weight = 2
         pre = "internal"
         post = "archive"
@@ -251,7 +251,7 @@ uglyURLs = false
 
     # Hide menu bar and display a toggle
     # on narrow screen?
-    enableNavToggle = true
+    enableNavToggle = false
 
     navHeight = "10em"
     # Note: menu bar height when it’s
@@ -343,7 +343,7 @@ uglyURLs = false
     # ATTENTION: keep this format, change
     #            the number
 
-    siteTwitter = "oky2abbas"
+    siteTwitter = "amirabbas_naqdi"
     # Note: used for Twitter Cards
 
 
@@ -427,7 +427,7 @@ uglyURLs = false
 
     displayListTitle = false
 
-    listDateFormat = "January 2"
+    listDateFormat = "2006 - Jan - 02"
     # ATTENTION: be sure to follow the
     #            specified format
     #            https://gohugo.io/functions/format/
@@ -442,9 +442,9 @@ uglyURLs = false
     chineseZodiac = true
 
     # Translate the year? (valid for title)
-    i18nYear = false
+    i18nYear = true
     # Translate the month? (valid for title)
-    i18nMonth = false
+    i18nMonth = true
 
 
     ######################################
@@ -530,7 +530,7 @@ uglyURLs = false
     #       Unless you enable the following
     #       option.
 
-    overrideSystemPreferences = false
+    overrideSystemPreferences = true
 
 
     ######################################
@@ -755,7 +755,7 @@ uglyURLs = false
     # Note: valid for the `posts` and
     #       `page` homepage layout only
 
-    postMetaDateFormat = "2006.1.2"
+    postMetaDateFormat = "2006-Jun-02"
     # ATTENTION: be sure to follow the
     #            specified format
     #            https://gohugo.io/functions/format/
@@ -1239,7 +1239,7 @@ uglyURLs = false
     ######################################
     # Multilingual
 
-    enableLangToggle = true
+    enableLangToggle = false
 
     hideLangToggleInHome = true
 
@@ -1276,7 +1276,7 @@ uglyURLs = false
     # Note: render only in production
     #       environment
 
-    enableForceHTTPS = false
+    enableForceHTTPS = true
     # Note: use JavaScript for redirection.
     #       You can enable this if your
     #       server does not support forced

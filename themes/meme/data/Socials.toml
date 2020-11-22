@@ -28,14 +28,14 @@
 
 [[socials]]
     id = "twitter"
-    url = "https://twitter.com/oky2abbas"
+    url = "https://twitter.com/amirabbas_naqdi"
     icon = "twitter"
     title = "Twitter"
     weight = 4
 
 [[socials]]
     id = "telegram"
-    url = "https://t.me/oky2abbas"
+    url = "https://t.me/amirabbas_naqdi"
     icon = "telegram"
     title = "Telegram"
     weight = 5
